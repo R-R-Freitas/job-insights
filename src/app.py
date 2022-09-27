@@ -1,5 +1,5 @@
 from flask import Flask
-from . import routes_and_views
+from src import routes_and_views
 
 
 def create_app() -> Flask:
